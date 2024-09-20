@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./images.jpeg" type="image/x-icon">
+    <style>
+         table,tr,td{
+            border: 2px solid blue;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1 id="item1">naruto</h1>
+    <h1 id="item2">bleach</h1>
+    <h1 id="item3">one piece</h1>
+    <h1 id="item4">dragon ball z</h1>
+    <h1 id="item5">hunter X hunter</h1> -->
+    <script>
+        // let naruto = document.getElementById('item1');
+        // let bleach = document.getElementById('item2');
+        // let one_piece = document.getElementById('item3');
+        // let dragon = document.getElementById('item4');
+        // let hunter = document.getElementById('item5');
+        // console.log(naruto);
+        // console.log(bleach);
+        // console.log(one_piece);
+        // console.log(dragon);
+        // console.log(hunter);
+        // naruto.innerText = " kakashi";
+        // bleach.innerText = " Aizen";
+        // one_piece.innerText = " shanks";
+        // dragon.innerText = " vegita";
+        // hunter.innerText = " gon";
+        let table = document.createElement("table");
+        let tr1 = document.createElement("tr");
+        let tr2 = document.createElement("tr");
+        let r1td1 =document.createElement("td");
+        let r1td2 =document.createElement("td");
+        let r2td3 =document.createElement("td");
+        let r2td4 =document.createElement("td");
+        r1td1.innerText = "Raju";
+        r1td2.innerText ="22";
+        r2td3.innerText = "Ravi";
+        r2td4.innerText = "24";
+        tr1.appendChild(r1td1);
+        tr1.appendChild(r1td2);
+        tr2.appendChild(r2td3);
+        tr2.appendChild(r2td4);
+        table.appendChild(tr1);
+        table.appendChild(tr2);
+        document.body.appendChild(table);
+
+    </script>
+</body>
+</html>
